@@ -18,7 +18,7 @@ let myHeading = document.querySelector('h1');
 function setUserName() {
 let myName = prompt('Veuillez saisir votre nom');
     localStorage.setItem('nom', myName);
-    myHeading.textContent = 'Mozilla est cool,' +
+    myHeading.textContent = 'Mozilla est GAY ,' +
 myName;
 }
 
@@ -26,7 +26,7 @@ if (!localStorage.getItem('nom')) {
     setUserName();
 } else {
     let storedName = localStorage.getItem('nom');
-    myHeading.textContent = 'Mozilla est cool,' + storedName;
+    myHeading.textContent = 'Mozilla est GAY ,' + storedName;
 }
 
 myButton.addEventListener('click', function() {
